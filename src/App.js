@@ -1,23 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-
+import queryString from 'query-string';
 function App() {
+  const {name, price, description } = queryString.parse(window.location.href);
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <p>Tên sản phẩm: {name}</p>
+        <p>Giá: {price}</p>
+        <p>Mô tả:{description}</p>
     </div>
   );
 }
