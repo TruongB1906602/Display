@@ -3,15 +3,13 @@
 .infor p{
   font-size: 15px;
   font-weight: 500;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
 
 }
 .App a img{
   width: 60%;
   margin: 30px 5rem;
-  display: flex;
+
   border-radius: 5%;
 }
 h3{

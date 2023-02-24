@@ -2,11 +2,11 @@
 import './App.css';
 import queryString from 'query-string';
 function App() {
-  const {id,name, price, description,exprire_date,img } = queryString.parse(window.location.href);
+  const {id,name, price, description,exprire_date,image } = queryString.parse(window.location.href);
   return (
     <div className="App">
       <div>
-         <a> <img src={img}/></a>
+         <a> <img src={image}/></a>
       </div> 
       <h3>Thông sản phẩm</h3>
        <div  className='infor'>
