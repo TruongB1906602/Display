@@ -10,7 +10,7 @@ function App(props) {
       </div> 
       <h3>Thông sản phẩm</h3>
        <div  className='infor'>
-        <p>Mã SP: {id}</p>
+        <p>Mã SP: {idqrcode}</p>
         <p>Hạn sản xuất: {exprire_date}</p>
         <p>Tên sản phẩm: {name}</p>
         <p>Giá: {price}</p>
