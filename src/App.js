@@ -14,7 +14,7 @@ function App() {
       <h3>Thông sản phẩm</h3>
       <div className='container'>
         <img 
-        src={image}/>
+        src={image} alt='#'/>
         <div  className='infor'>
           <p>Mã sản phẩm:{id}</p>
           <p>Tên sản phẩm:{name}</p>
