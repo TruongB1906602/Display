@@ -24,7 +24,7 @@ function App() {
 
         </div>
       </div>
-      
+    
        <div className='description'>
            <h3>Mô tả</h3>
            <p>{description}</p>
