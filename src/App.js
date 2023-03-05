@@ -3,7 +3,7 @@ import './App.css';
 import queryString from 'query-string';
 
 function App() {
-  const {idcode,id,name, price, description,exprire_date,image, category } = queryString.parse(window.location.href);
+  const {id,name, price, description,exprire_date,image, category } = queryString.parse(window.location.href);
   return (
     <div className="App">
       <div className="check">
