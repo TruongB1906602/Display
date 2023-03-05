@@ -1,12 +1,17 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 667px) {
   /* Style cho màn hình có độ rộng nhỏ hơn hoặc bằng 767px */
 .infor p{
-  font-size: 15px;
+  font-size: 13px;
   font-weight: 500;
-
-
 }
-.App  img{
+.infor{
+ margin-left: 10px;
+  width: 30rem;
+}
+.App{
+ margin: 0 0.5rem;
+}
+.check img{
   width: 60%;
   margin: 30px 5rem;
 
@@ -15,5 +20,57 @@
 h3{
   background-color: #eee;
   padding-left: 10px;
+}
+.check p,h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: rgb(37, 255, 70); */
+}
+
+.container{
+  display: flex;
+}
+.container img{
+ width: 100px;
+ height: 100px;
+
+}
+
+}
+@media screen and (min-width: 667px) {
+
+  .App{
+    margin: 0 32rem;
+   }
+  .container img{
+    width: 200px;
+    height: 200px;
+    
+   
+   }
+.container{
+  display: flex;
+  justify-content: center;
+  align-items:center;
+width: 45rem;
+
+}
+.check img{
+  width: 60%;
+  margin: 30px 5rem;
+  border-radius: 5%;
+}
+.infor{
+  margin-left: 10px;
+   width: 35rem;
+ }
+
+.check p,h4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: rgb(37, 255, 70); */
+  font-size: 20px;
 }
 }
