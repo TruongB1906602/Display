@@ -14,17 +14,17 @@ function App() {
       <h3>Thông sản phẩm</h3>
       <div className='container'>
         <img 
-        src={image} alt="#"/>
+        src={image}/>
         <div  className='infor'>
           <p>Mã sản phẩm:{id}</p>
-          <p>Tên sản phẩm: {name}</p>
-          <p>Hạn sử dụng: {exprire_date}</p>
+          <p>Tên sản phẩm:{name}</p>
+          <p>Hạn sử dụng:{exprire_date}</p>
           <p>Giá cả: {price}</p>
-          <p>Loại sản phẩm: {category}</p>
+          <p>Loại sản phẩm:{category}</p>
 
         </div>
       </div>
-    
+      
        <div className='description'>
            <h3>Mô tả</h3>
            <p>{description}</p>
