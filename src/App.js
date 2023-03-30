@@ -27,7 +27,7 @@ function App() {
       
        <div className='description'>
            <h3>Mô tả</h3>
-           <p>{description}</p>
+           <p dangerouslySetInnerHTML={{__html: description}} ></p>
       
        </div>
 
