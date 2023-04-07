@@ -3,7 +3,7 @@ import './App.css';
 import queryString from 'query-string';
 
 function App() {
-  const {id,name, price, description,exprire_date,image, category } = queryString.parse(window.location.href);
+  const {idcode,id,name, price, description,exprire_date,image, category } = queryString.parse(window.location.href);
   return (
     <div className="App">
       <div className="check">
@@ -16,6 +16,7 @@ function App() {
         <img 
         src={image} alt='#'/>
         <div  className='infor'>
+          <p style={{display:none}}>{idcode}</p>
           <p>Mã sản phẩm:{id}</p>
           <p>Tên sản phẩm:{name}</p>
           <p>Hạn sử dụng:{exprire_date}</p>
