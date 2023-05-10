@@ -20,7 +20,9 @@ function App() {
           <p>Mã sản phẩm:{id}</p>
           <p>Tên sản phẩm:{name}</p>
           <p>Hạn sử dụng:{exprire_date}</p>
-          <p>Giá cả: {price}</p>
+          <p>Giá cả: {`${
+                    new Intl.NumberFormat('de-DE',{style: 'currency',currency: 'VND'}).format(price)
+                  }`}</p>
           <p>Loại sản phẩm:{category}</p>
 
         </div>
